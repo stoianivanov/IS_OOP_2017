@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1489060138 source:c:\users\grade\documents\test\main.cpp
+	<iostream>
+	"Panda.h"
+
+1489060168 source:c:\users\grade\documents\test\panda.cpp
+	"Panda.h"
+
+1489060198 c:\users\grade\documents\test\panda.h
+	<iostream>
+	<cmath>
+	<cstring>
+
