@@ -104,3 +104,8 @@ void String::concat(const String& other)
     delete[] this->data;
     this-> data = temp;
 }
+
+bool String::operator==(const String& lhs)
+{
+    return strcmp(this->data, lhs.data);
+}

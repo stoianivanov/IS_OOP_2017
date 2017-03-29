@@ -21,9 +21,25 @@ public:
     void concat(char* other);
 
     const char* GetData()const;
+
+    String& operator+=(const String& rhs);
+    String& operator-=(const String& rhs);
+
+    bool operator==(const String& rhs);
+    bool operator!=(const String& rhs);
+
+
+    bool operator< (const String& rhs);
+    bool operator> (const String& rhs);
+    bool operator<=(const String& rhs);
+    bool operator>=(const String& rhs);
+    friend std::istream& operator>>(std::istream& is, String& obj);
+    friend std::ostream& operator<<(std::ostream& os, const String& obj);
+
 private:
     void copy(const String&);
     void destroy();
+
 
     char* data;
     size_t size;

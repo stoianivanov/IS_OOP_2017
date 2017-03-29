@@ -5,6 +5,7 @@ int main ()
     String s1("dasdas", 6);
     s1.print();
     String s2 = s1;
+    cout<<(s1 == s2);
     s2.print();
     String s3(s2);
     s3.print();
