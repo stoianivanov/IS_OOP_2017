@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1489661994 source:c:\users\grade\documents\week04\person.cpp
+	"Person.h"
+
+1489661543 c:\users\grade\documents\week04\person.h
+	<iostream>
+	<cstring>
+
+1489661899 source:c:\users\grade\documents\week04\main.cpp
+	"Person.h"
+
