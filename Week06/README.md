@@ -1,4 +1,4 @@
-'''
+```
 #pragma once
 #include <cstring>
 #include <iostream>
@@ -45,4 +45,4 @@ private:
     char* data;
     size_t size;
 };
-'''
+```
